@@ -1,0 +1,136 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'League Spartan', sans-serif;
+    background-image: url(images/bg-pattern-top-desktop.svg) url(images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat no-repeat;
+    background-position: top 0 left 0, top 0 left 0;
+}
+/* トップセクション */
+main{
+    width: 79.6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 118px;
+}
+/* メインテキスト */
+.main-txt{
+    width: 445px;
+}
+.main-txt h1{
+    color: #512051;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 48px;
+    letter-spacing: -2px;
+}
+.main-txt p{
+    margin-top: 16px;
+    margin-bottom: 0;
+    color: #927B91;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 25px;
+    letter-spacing: -0.633333px;
+}
+/* 評判共通 */
+.ratings{
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.rating-box{
+    width: 445px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #F7F2F7;
+}
+.star{
+    width: 100px;
+    height: 15.77px;
+    margin-left: 32px;
+    background-image: url(images/icon-star.svg);
+    background-repeat: space;
+}
+.medium{
+    margin-left: 32.45px;
+    color: #512051;
+    font-weight: 700;
+    font-size: 17px;
+}
+/* 評判個別 */
+#reportguru{
+    margin-left: 48px;
+}
+#besttech{
+    margin-left: 96px;
+}
+
+/* 口コミセクション */
+.review-sect{
+    width: 79.6%;
+    margin-top: 71px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+/* レビューの箱共通 */
+.review-box{
+    width: 350px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    background: #512051;
+    border-radius: 8px;
+}
+/* プロフィール共通 */
+.profile{
+    width: calc(100%-32px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 23px;
+    margin-top: 40px;
+    margin-left: 32px;
+}
+.profile img{
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
+.name{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 17px;
+}
+.role{
+    color: #EE69A4;
+    font-weight: 400;
+    font-size: 17px;
+}
+/* 口コミ共通 */
+.review{
+    width: 81.71%;
+    margin-top: 31px;
+    margin-left: 32px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.303571px;
+}
+/* レビューの箱個別 */
+#irene{
+    margin-top: 16px;
+}
+#anne{
+    margin-top: 32px;
+}
+/* タブレット版
+---------------------------------------------------------*/
